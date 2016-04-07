@@ -4,8 +4,11 @@ Write a function called validParentheses that takes a string of parentheses, and
 
 ##Examples: 
 validParentheses( "()" ) => returns true 
+
 validParentheses( ")(()))" ) => returns false 
+
 validParentheses( "(" ) => returns false 
+
 validParentheses( "(())((()())())" ) => returns true 
 
 All input strings will be nonempty, and will only consist of open parentheses '(' and/or closed parentheses ')'
