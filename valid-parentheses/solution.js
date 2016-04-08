@@ -6,9 +6,6 @@ function validParentheses(parens){
     parens = parens.replace('()', '');
   }
   
-   if (parens == '') {
-     return true;
-   }
-   
-   return false;
+  return parens == '';
+
 }
